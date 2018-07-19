@@ -1,1 +1,27 @@
 /*여기는 css를 넣으면 됩니다*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #7effef;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Malgun Gothic';
+}
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #777 !important;
+    }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #7fd3c8 !important;
+    background-color: #68b2a8 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;            color: #777 !important;        }                .center
+{
+    text-align:center;
+}
